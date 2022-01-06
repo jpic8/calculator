@@ -1,5 +1,7 @@
 # calculator
 
+GH pages link -- https://jpic8.github.io/calculator/
+
 This started out as my attempt at the Calculator Project for The Odin Project:
 https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/calculator
 
