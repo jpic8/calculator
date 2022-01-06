@@ -140,3 +140,29 @@ deleteButton.addEventListener("click", (button) => {
   calculator.delete();
   calculator.updateDisplay();
 });
+
+//keyboard controls
+window.addEventListener("keydown", keyboardInput);
+
+function keyboardInput(e) {
+  if ((e.key >= 0 && e.key <= 9) || e.key === ".") {
+    calculator.appendNumber(e.key);
+    calculator.updateDisplay();
+  }
+  if (e.key === "=" || e.key === "Enter") {
+    calculator.compute();
+    calculator.updateDisplay();
+  }
+  if (e.key === "Delete") {
+    calculator.delete();
+    calculator.updateDisplay();
+  }
+  if (e.key === "Backspace") {
+    calculator.clear();
+    calculator.updateDisplay();
+  }
+  if (e.key === "+" || e.key === "-" || e.key === "*" || e.key === "/") {
+    calculator.chooseOperation(e.key);
+    calculator.updateDisplay();
+  }
+}

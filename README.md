@@ -18,4 +18,4 @@ Finally, thanks to this tutorial, I have been introduced to Javascript Classes f
 
 I do not quite have the same sense of accomplishment had I been able to complete this entirely on my own, but I did learn a lot throughout the process, including many times where I had to troubleshoot and debug my own code for simple things like typos. I am grateful for the wealth of resources available, and look forward to continuing my studies.
 
-I would ideally like to return to this project to implement keyobard support at some point.
+Update: keyboard controls added, but '/' button does not work properly in Firefox because of the quickfind keyboard shortcut, investigating alternatives...
